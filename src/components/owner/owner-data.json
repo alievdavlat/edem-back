@@ -1,0 +1,41 @@
+{
+  "collectionName": "components_owner_owner_data",
+  "info": {
+    "displayName": "owner_data",
+    "icon": "cube"
+  },
+  "options": {},
+  "attributes": {
+    "title_ru": {
+      "type": "string"
+    },
+    "title_uz": {
+      "type": "string"
+    },
+    "description_ru": {
+      "type": "string"
+    },
+    "description_uz": {
+      "type": "string"
+    },
+    "avatar": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "owner_name_uz": {
+      "type": "string"
+    },
+    "owner_name_ru": {
+      "type": "string"
+    },
+    "text_ru": {
+      "type": "string"
+    },
+    "text_uz": {
+      "type": "string"
+    }
+  }
+}

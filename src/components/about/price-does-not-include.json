@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_about_price_does_not_includes",
+  "info": {
+    "displayName": "priceDoesNotInclude",
+    "icon": "apps"
+  },
+  "options": {},
+  "attributes": {
+    "title_ru": {
+      "type": "string"
+    },
+    "title_uz": {
+      "type": "string"
+    },
+    "priceDoesNotInclude_data": {
+      "type": "json"
+    }
+  }
+}

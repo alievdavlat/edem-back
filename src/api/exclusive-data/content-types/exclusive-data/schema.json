@@ -1,0 +1,54 @@
+{
+  "kind": "singleType",
+  "collectionName": "exclusive_datas",
+  "info": {
+    "singularName": "exclusive-data",
+    "pluralName": "exclusive-datas",
+    "displayName": "exclusive-data",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title_ru": {
+      "type": "string"
+    },
+    "title_uz": {
+      "type": "string"
+    },
+    "day_uz": {
+      "type": "string"
+    },
+    "day_ru": {
+      "type": "string"
+    },
+    "descr_ru": {
+      "type": "text"
+    },
+    "descr_uz": {
+      "type": "text"
+    },
+    "bg": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "btnText_ru": {
+      "type": "string"
+    },
+    "btnText_uz": {
+      "type": "string"
+    },
+    "main_title_ru": {
+      "type": "string"
+    },
+    "main_title_uz": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_about_price_includes",
+  "info": {
+    "displayName": "priceIncludes"
+  },
+  "options": {},
+  "attributes": {
+    "title_ru": {
+      "type": "string"
+    },
+    "title_uz": {
+      "type": "string"
+    },
+    "priceIncludes_data": {
+      "type": "json"
+    }
+  }
+}

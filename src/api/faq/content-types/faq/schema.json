@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "faqs",
+  "info": {
+    "singularName": "faq",
+    "pluralName": "faqs",
+    "displayName": "faq"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "anwer_ru": {
+      "type": "string"
+    },
+    "anwer_uz": {
+      "type": "string"
+    },
+    "question_ru": {
+      "type": "string"
+    },
+    "question_uz": {
+      "type": "string"
+    }
+  }
+}

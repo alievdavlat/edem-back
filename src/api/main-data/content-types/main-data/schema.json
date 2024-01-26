@@ -1,0 +1,66 @@
+{
+  "kind": "singleType",
+  "collectionName": "main_datas",
+  "info": {
+    "singularName": "main-data",
+    "pluralName": "main-datas",
+    "displayName": "mainData",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "logo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "hero_logo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "phone": {
+      "type": "json"
+    },
+    "address_ru": {
+      "type": "text"
+    },
+    "address_uz": {
+      "type": "text"
+    },
+    "footer_mobi_logo": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "social_bg": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "social_text_ru": {
+      "type": "string"
+    },
+    "social_text_uz": {
+      "type": "string"
+    }
+  }
+}

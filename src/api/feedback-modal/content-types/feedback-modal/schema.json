@@ -1,0 +1,52 @@
+{
+  "kind": "singleType",
+  "collectionName": "feedback_modals",
+  "info": {
+    "singularName": "feedback-modal",
+    "pluralName": "feedback-modals",
+    "displayName": "feedbackModal",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title_ru": {
+      "type": "string"
+    },
+    "title_uz": {
+      "type": "string"
+    },
+    "description_ru": {
+      "type": "string"
+    },
+    "description_uz": {
+      "type": "string"
+    },
+    "placeholderName_ru": {
+      "type": "string"
+    },
+    "placeholderName_uz": {
+      "type": "string"
+    },
+    "placeholderPhone_ru": {
+      "type": "string"
+    },
+    "buttonText_ru": {
+      "type": "string"
+    },
+    "buttonText_uz": {
+      "type": "string"
+    },
+    "doneMsg_ru": {
+      "type": "string"
+    },
+    "doneMsg_uz": {
+      "type": "string"
+    },
+    "placeholderPhone_uz": {
+      "type": "string"
+    }
+  }
+}

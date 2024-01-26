@@ -1,0 +1,49 @@
+{
+  "kind": "singleType",
+  "collectionName": "abouts",
+  "info": {
+    "singularName": "about",
+    "pluralName": "abouts",
+    "displayName": "About",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "main_title_ru": {
+      "type": "string"
+    },
+    "main_title_uz": {
+      "type": "string"
+    },
+    "main_image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "owner": {
+      "displayName": "owner_data",
+      "type": "component",
+      "repeatable": false,
+      "component": "owner.owner-data"
+    },
+    "video": {
+      "allowedTypes": [
+        "videos"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "team_title_ru": {
+      "type": "string"
+    },
+    "team_title_uz": {
+      "type": "string"
+    }
+  }
+}

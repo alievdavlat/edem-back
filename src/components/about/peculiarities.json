@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_about_peculiarities",
+  "info": {
+    "displayName": "peculiarities",
+    "icon": "cloud"
+  },
+  "options": {},
+  "attributes": {
+    "title_ru": {
+      "type": "string"
+    },
+    "title_uz": {
+      "type": "string"
+    },
+    "peculiarities_list": {
+      "type": "json"
+    }
+  }
+}

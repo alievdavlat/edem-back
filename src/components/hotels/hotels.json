@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_hotels_hotels",
+  "info": {
+    "displayName": "hotels"
+  },
+  "options": {},
+  "attributes": {
+    "title_ru": {
+      "type": "string"
+    },
+    "title_uz": {
+      "type": "string"
+    },
+    "five_star_hotels": {
+      "type": "json"
+    },
+    "four_star_hotels": {
+      "type": "json"
+    }
+  }
+}

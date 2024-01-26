@@ -1,0 +1,126 @@
+{
+  "kind": "collectionType",
+  "collectionName": "tours_datas",
+  "info": {
+    "singularName": "tours-data",
+    "pluralName": "tours-datas",
+    "displayName": "tours-data",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "country_ru": {
+      "type": "string"
+    },
+    "country_uz": {
+      "type": "string"
+    },
+    "duration_ru": {
+      "type": "string"
+    },
+    "duration_uz": {
+      "type": "string"
+    },
+    "date_uz": {
+      "type": "string"
+    },
+    "date_ru": {
+      "type": "string"
+    },
+    "eating_ru": {
+      "type": "string"
+    },
+    "eating_uz": {
+      "type": "string"
+    },
+    "price_uz": {
+      "type": "string"
+    },
+    "price_ru": {
+      "type": "string"
+    },
+    "images": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "flight_ru": {
+      "type": "string"
+    },
+    "flight_uz": {
+      "type": "string"
+    },
+    "passengers_count_ru": {
+      "type": "string"
+    },
+    "passengers_count_uz": {
+      "type": "string"
+    },
+    "tour_type_ru": {
+      "type": "string"
+    },
+    "tour_type_uz": {
+      "type": "string"
+    },
+    "visa_ru": {
+      "type": "string"
+    },
+    "visa_uz": {
+      "type": "string"
+    },
+    "insurance_ru": {
+      "type": "string"
+    },
+    "insurance_uz": {
+      "type": "string"
+    },
+    "aboutTour": {
+      "displayName": "aboutTour",
+      "type": "component",
+      "repeatable": false,
+      "component": "about.about-tour"
+    },
+    "Hotels": {
+      "displayName": "hotels",
+      "type": "component",
+      "repeatable": true,
+      "component": "hotels.hotels"
+    },
+    "peculiarities": {
+      "displayName": "peculiarities",
+      "type": "component",
+      "repeatable": false,
+      "component": "about.peculiarities"
+    },
+    "priceIncludes": {
+      "displayName": "priceIncludes",
+      "type": "component",
+      "repeatable": false,
+      "component": "about.price-includes"
+    },
+    "priceDoesNotInclude": {
+      "displayName": "priceDoesNotInclude",
+      "type": "component",
+      "repeatable": false,
+      "component": "about.price-does-not-include"
+    },
+    "month": {
+      "type": "string"
+    },
+    "rel": {
+      "type": "string"
+    },
+    "title_ru": {
+      "type": "string"
+    },
+    "title_uz": {
+      "type": "string"
+    }
+  }
+}

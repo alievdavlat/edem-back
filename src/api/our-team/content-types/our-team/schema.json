@@ -1,0 +1,40 @@
+{
+  "kind": "collectionType",
+  "collectionName": "our_teams",
+  "info": {
+    "singularName": "our-team",
+    "pluralName": "our-teams",
+    "displayName": "ourTeam"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name_ru": {
+      "type": "string"
+    },
+    "name_uz": {
+      "type": "string"
+    },
+    "role_uz": {
+      "type": "string"
+    },
+    "role_ru": {
+      "type": "string"
+    },
+    "description_ru": {
+      "type": "string"
+    },
+    "description_uz": {
+      "type": "string"
+    },
+    "avatar": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

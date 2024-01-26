@@ -1,0 +1,49 @@
+{
+  "kind": "singleType",
+  "collectionName": "owner_datas",
+  "info": {
+    "singularName": "owner-data",
+    "pluralName": "owner-datas",
+    "displayName": "ownerData"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title_ru": {
+      "type": "string"
+    },
+    "title_uz": {
+      "type": "string"
+    },
+    "description_ru": {
+      "type": "string"
+    },
+    "description_uz": {
+      "type": "string"
+    },
+    "owner_name_uz": {
+      "type": "string"
+    },
+    "owner_name_ru": {
+      "type": "string"
+    },
+    "text_ru": {
+      "type": "string"
+    },
+    "text_uz": {
+      "type": "string"
+    },
+    "avatar": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}

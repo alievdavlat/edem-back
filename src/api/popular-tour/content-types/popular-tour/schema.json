@@ -1,0 +1,34 @@
+{
+  "kind": "collectionType",
+  "collectionName": "popular_tours",
+  "info": {
+    "singularName": "popular-tour",
+    "pluralName": "popular-tours",
+    "displayName": "popularTour"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "taur_uz": {
+      "type": "string"
+    },
+    "taur_ru": {
+      "type": "string"
+    },
+    "country_uz": {
+      "type": "string"
+    },
+    "country_ru": {
+      "type": "string"
+    },
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

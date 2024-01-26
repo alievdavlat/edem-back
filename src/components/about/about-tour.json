@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_about_about_tours",
+  "info": {
+    "displayName": "aboutTour",
+    "icon": "earth"
+  },
+  "options": {},
+  "attributes": {
+    "title_ru": {
+      "type": "string"
+    },
+    "title_uz": {
+      "type": "string"
+    },
+    "description_ru": {
+      "type": "string"
+    },
+    "description_uz": {
+      "type": "string"
+    }
+  }
+}

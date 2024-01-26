@@ -1,0 +1,40 @@
+{
+  "kind": "singleType",
+  "collectionName": "homes",
+  "info": {
+    "singularName": "home",
+    "pluralName": "homes",
+    "displayName": "home"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "main_title_uz": {
+      "type": "string"
+    },
+    "main_title_ru": {
+      "type": "string"
+    },
+    "main_plane": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "popular_titlle_uz": {
+      "type": "string"
+    },
+    "popular_titlle_ru": {
+      "type": "string"
+    },
+    "hot_title_ru": {
+      "type": "string"
+    },
+    "hot_title_uz": {
+      "type": "string"
+    }
+  }
+}
